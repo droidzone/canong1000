@@ -1,0 +1,635 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for G1000 series with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v2.1.3.
+*% Modified By Droidzone <dz@droidzone.in> All rights reserved by Canon Inc.
+*% CUPS PPD file for Canon InkJet Printers.
+*% Copyright CANON INC. 2007-2016
+*% 
+*FormatVersion: "4.3"
+*FileVersion: "16.10.0.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "CNIJ466.ppd"
+*Product: "(Canon G1000 series)"
+*Manufacturer: "Canon"
+*ModelName: "Canon G1000 series"
+*ShortNickName: "G1000 series"
+*NickName: "Canon G1000 series"
+*PSVersion: "(3010.000) 705"
+*LanguageLevel: "3"
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Minus90
+*% Driver-defined attributes...
+*DefaultOutputOrder: Reverse
+*cupsBackSide: "Rotated"
+*cupsEvenDuplex: "true"
+*APDuplexRequiresFlippedMargin: "true"
+*cupsCommands: "PrintSelfTestPage"
+*cupsSNMPSupplies: False
+*CNIJExtDDISwitch: "1"
+*CNIJALMVer: "13"
+*CNIJUtilPrefType: "2"
+*CNIJDBProfileSpec: "0"
+*CNIJNameTblPath: "/Library/Printers/Canon/BJPrinter/Resources/Database/CIJG1000series.db/Contents/Resources"
+*CNIJTableID: "466"
+*CNIJConvName: ""
+*CNIJDeviceURI: ""
+*APSupportsCustomColorMatching: True
+*APCustomColorMatchingName name/Canon Color Matching: ""
+*APDefaultCustomColorMatchingProfile: "sRGB"
+*cupsICCQualifier2: "CNIJProfileID"
+*CenterRegistered: False
+*cupsPageSizeCategory A4/A4: "A4 A4.FullBleed"
+*cupsPageSizeCategory Letter/US Letter: "Letter Letter.FullBleed"
+*cupsPageSizeCategory 4x6/4 x 6: "4x6 4x6.FullBleed"
+*cupsPageSizeCategory 5x7/5 x 7: "5x7 5x7.FullBleed"
+*cupsPageSizeCategory 8x10/8 x 10: "8x10 8x10.FullBleed"
+*cupsPageSizeCategory 89x127mm/L: "89x127mm 89x127mm.FullBleed"
+*cupsPageSizeCategory 127x127mm/Square 5"x5" 13x13cm: "127x127mm 127x127mm.FullBleed"
+*cupsPageSizeCategory Postcard/Postcard: "Postcard Postcard.FullBleed"
+*cupsPageSizeCategory 55x91mm/Card: "55x91mm 55x91mm.FullBleed"
+*cupsIPPReason com.canon-0069-warning: "text:Support%20Code%20%3A%2069%20The%20printer%20is%20updating%20the%20firmware.%20Turn%20the%20printer%20off%20and%20then%20back%20on.%20If%20this%20message%20appears%20again%2C%20update%20the%20firmware%20once%20
+text:more."
+*End
+*cupsIPPReason com.canon-10000F-warning: "text:Support%20Code%20%3A%201000%20No%20paper.%20Load%20the%20paper%20correctly%20and%20press%20the%20RESUME%20button%20on%20the%20printer."
+*cupsIPPReason com.canon-120014-warning: "text:Support%20Code%20%3A%201200%20The%20printer%27s%20cover%20is%20open.%20"
+*cupsIPPReason com.canon-120016-warning: "text:Support%20Code%20%3A%201200%20The%20cartridge%20holder%20is%20in%20the%20cartridge%20replacement%20position.%20After%20replacing%20the%20cartridge%2C%20close%20the%20printer%27s%20cover."
+*cupsIPPReason com.canon-12000E-warning: "text:Support%20Code%20%3A%201200%20The%20holder%20is%20in%20the%20replacement%20position.%20After%20replacing%20the%20ink%20tank%2C%20close%20the%20cover."
+*cupsIPPReason com.canon-120015-warning: "text:Support%20Code%20%3A%201200%20The%20cartridge%20cannot%20be%20replaced%20because%20the%20cartridge%20is%20in%20a%20standby%20condition.%20%20Close%20the%20printer%27s%20cover%2C%20wait%20for%20a%20while%2C
+text:%20and%20then%20replace%20the%20cartridge."
+*End
+*cupsIPPReason com.canon-130012-warning: "text:Support%20Code%20%3A%201300%20Paper%20is%20jammed.%20%201.%20Remove%20the%20jammed%20paper%20slowly%20with%20both%20hands.%202.%20Press%20the%20printer%27s%20RESUME%20button.%20Reprint%20the%20page%20you%20w
+text:ere%20printing%20if%20it%20was%20not%20printed%20properly%20due%20to%20the%20paper%20jam."
+*End
+*cupsIPPReason com.canon-14030C-warning: "text:Support%20Code%20%3A%201403%20An%20error%20has%20occurred.%20Check%20the%20display%20on%20the%20printer."
+*cupsIPPReason com.canon-1470-warning: "text:Support%20Code%20%3A%201470%20A%20cartridge%20is%20not%20installed%20properly.%20Open%20the%20printer%27s%20cover%2C%20firmly%20close%20the%20cartridge%20locking%20cover%2C%20and%20then%20make%20sure%20the%20c
+text:artridge%20is%20installed%20properly.%20Then%20firmly%20push%20down%20each%20joint%20button.%20After%20that%2C%20close%20the%20printer%27s%20cover."
+*End
+*cupsIPPReason com.canon-147112-warning: "text:Support%20Code%20%3A%201471%20The%20following%20cartridge%20cannot%20be%20recognized.%20%22Color%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20may%20not%20be%20installed%20properly
+text:%20or%20may%20not%20be%20compatible%20with%20this%20printer.%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-147111-warning: "text:Support%20Code%20%3A%201471%20The%20following%20cartridge%20cannot%20be%20recognized.%20%22Black%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20may%20not%20be%20installed%20properly
+text:%20or%20may%20not%20be%20compatible%20with%20this%20printer.%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-14710-warning: "text:Support%20Code%20%3A%201471%20The%20following%20cartridge%20cannot%20be%20recognized.%20%22%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20may%20not%20be%20installed%20properly%20or
+text:%20may%20not%20be%20compatible%20with%20this%20printer.%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-147212-warning: "text:Support%20Code%20%3A%201472%20The%20following%20cartridge%20cannot%20be%20recognized.%20%22Color%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20may%20not%20be%20installed%20properly
+text:%20or%20may%20not%20be%20compatible%20with%20this%20printer.%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-147211-warning: "text:Support%20Code%20%3A%201472%20The%20following%20cartridge%20cannot%20be%20recognized.%20%22Black%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20may%20not%20be%20installed%20properly
+text:%20or%20may%20not%20be%20compatible%20with%20this%20printer.%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-14720-warning: "text:Support%20Code%20%3A%201472%20The%20following%20cartridge%20cannot%20be%20recognized.%20%22%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20may%20not%20be%20installed%20properly%20or
+text:%20may%20not%20be%20compatible%20with%20this%20printer.%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-147312-warning: "text:Support%20Code%20%3A%201473%20The%20following%20cartridge%20cannot%20be%20recognized.%20%22Color%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20may%20not%20be%20installed%20properly
+text:%20or%20may%20not%20be%20compatible%20with%20this%20printer.%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-147311-warning: "text:Support%20Code%20%3A%201473%20The%20following%20cartridge%20cannot%20be%20recognized.%20%22Black%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20may%20not%20be%20installed%20properly
+text:%20or%20may%20not%20be%20compatible%20with%20this%20printer.%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-14730-warning: "text:Support%20Code%20%3A%201473%20The%20following%20cartridge%20cannot%20be%20recognized.%20%22%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20may%20not%20be%20installed%20properly%20or
+text:%20may%20not%20be%20compatible%20with%20this%20printer.%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-147412-warning: "text:Support%20Code%20%3A%201474%20A%20cartridge%20is%20not%20installed%20in%20the%20correct%20position.%20Install%20the%20following%20cartridge%20in%20the%20appropriate%20position.%20If%20printing%20is%20in%20pr
+text:ogress%2C%20cancel%20printing%20and%20install%20the%20cartridge.%20%22Color%22%20%20"
+*End
+*cupsIPPReason com.canon-147411-warning: "text:Support%20Code%20%3A%201474%20A%20cartridge%20is%20not%20installed%20in%20the%20correct%20position.%20Install%20the%20following%20cartridge%20in%20the%20appropriate%20position.%20If%20printing%20is%20in%20pr
+text:ogress%2C%20cancel%20printing%20and%20install%20the%20cartridge.%20%22Black%22%20%20"
+*End
+*cupsIPPReason com.canon-14740-warning: "text:Support%20Code%20%3A%201474%20A%20cartridge%20is%20not%20installed%20in%20the%20correct%20position.%20Install%20the%20following%20cartridge%20in%20the%20appropriate%20position.%20If%20printing%20is%20in%20pro
+text:gress%2C%20cancel%20printing%20and%20install%20the%20cartridge.%20%22%22%20%20"
+*End
+*cupsIPPReason com.canon-147512-warning: "text:Support%20Code%20%3A%201475%20More%20than%20one%20cartridge%20of%20the%20following%20type%20is%20installed.%20%22Color%22%20%20Use%20only%20one%20cartridge%20per%20type%20at%20a%20time."
+*cupsIPPReason com.canon-147511-warning: "text:Support%20Code%20%3A%201475%20More%20than%20one%20cartridge%20of%20the%20following%20type%20is%20installed.%20%22Black%22%20%20Use%20only%20one%20cartridge%20per%20type%20at%20a%20time."
+*cupsIPPReason com.canon-14750-warning: "text:Support%20Code%20%3A%201475%20More%20than%20one%20cartridge%20of%20the%20following%20type%20is%20installed.%20%22%22%20%20Use%20only%20one%20cartridge%20per%20type%20at%20a%20time."
+*cupsIPPReason com.canon-147612-warning: "text:Support%20Code%20%3A%201476%20Appropriate%20cartridge%20is%20not%20installed.%20%22Color%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20is%20not%20compatible%20with%20this%20printer.
+text:%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-147611-warning: "text:Support%20Code%20%3A%201476%20Appropriate%20cartridge%20is%20not%20installed.%20%22Black%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20is%20not%20compatible%20with%20this%20printer.
+text:%20Install%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-14760-warning: "text:Support%20Code%20%3A%201476%20Appropriate%20cartridge%20is%20not%20installed.%20%22%22%20%20Printing%20cannot%20be%20executed%20because%20the%20cartridge%20is%20not%20compatible%20with%20this%20printer.%20Ins
+text:tall%20the%20appropriate%20cartridge."
+*End
+*cupsIPPReason com.canon-1640-warning: "text:Support%20Code%20%3A%201640%20The%20remaining%20ink%20level%20in%20one%20of%20the%20ink%20tanks%20may%20have%20reached%20the%20lower%20limit%20line%20shown%20on%20the%20ink%20tank.%20To%20check%20the%20remaini
+text:ng%20ink%20level%2C%20visually%20inspect%20the%20remaining%20ink%20in%20the%20ink%20tank.%20If%20printing%20is%20continued%20when%20the%20remaining%20ink%20level%20is%20below%20the%20lower%20limit%20line%2C%20the%20printer%20may%20consume%20a%20cert
+text:ain%20amount%20of%20ink%20to%20return%20to%20printable%20status%20and%20may%20also%20become%20damaged.%20Refer%20to%20the%20manual%20for%20details."
+*End
+*cupsIPPReason com.canon-17000C-warning: "text:Support%20Code%20%3A%201700%20The%20ink%20absorber%20is%20almost%20full.%20Press%20the%20printer%27s%20RESUME%20button%20to%20continue%20printing.%20Contact%20the%20service%20center."
+*cupsIPPReason com.canon-170105-warning: "text:Support%20Code%20%3A%201701%20The%20ink%20absorber%20is%20almost%20full.%20Press%20the%20printer%27s%20RESUME%20button%20to%20continue%20printing.%20The%20printer%20will%20soon%20require%20servicing%20to%20r
+text:eplace%20the%20ink%20absorber.%20Contact%20the%20service%20center%20for%20replacement.%20The%20ink%20absorber%20can%20only%20be%20replaced%20by%20a%20qualified%20technician."
+*End
+*cupsIPPReason com.canon-189001-warning: "text:Support%20Code%20%3A%201890%20An%20error%20has%20occurred.%20Check%20the%20display%20on%20the%20printer."
+*cupsIPPReason com.canon-JobCC4-warning: "text:Print%20job%20has%20been%20canceled%20by%20the%20operation%20of%20the%20printer.%20Delete%20unnecessary%20print%20jobs."
+*cupsIPPReason com.canon-OC-warning: "text:An%20error%20has%20occurred.%20Check%20the%20display%20on%20the%20printer."
+*cupsIPPReason com.canon-ANTH-warning: "text:Error%20occurred%20while%20the%20printer%20is%20used%20by%20another%20user."
+*cupsIPPReason com.canon-510006-warning: "text:Support%20Code%20%3A%205100%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20check%20that%20there%20are%20no%20foreign%20objects%20in%20the%20printer.%20After%20that%2C%20t
+text:urn%20the%20printer%20on%20again.%20%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20th
+text:e%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-520001-warning: "text:Support%20Code%20%3A%205200%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-540001-warning: "text:Support%20Code%20%3A%205400%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-570001-warning: "text:Support%20Code%20%3A%205700%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-5B0005-warning: "text:Support%20Code%20%3A%205B00%20Printer%20error%20has%20occurred.%20Contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*cupsIPPReason com.canon-5B0102-warning: "text:Support%20Code%20%3A%205B01%20The%20ink%20absorber%20is%20full.%20It%20needs%20to%20be%20replaced.%20Contact%20the%20service%20center%20for%20replacement.%20The%20ink%20absorber%20can%20only%20be%20replaced
+text:%20by%20a%20qualified%20technician.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-600001-warning: "text:Support%20Code%20%3A%206000%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-680001-warning: "text:Support%20Code%20%3A%206800%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-680101-warning: "text:Support%20Code%20%3A%206801%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-693001-warning: "text:Support%20Code%20%3A%206930%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-693101-warning: "text:Support%20Code%20%3A%206931%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-693201-warning: "text:Support%20Code%20%3A%206932%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-693301-warning: "text:Support%20Code%20%3A%206933%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-693601-warning: "text:Support%20Code%20%3A%206936%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-693701-warning: "text:Support%20Code%20%3A%206937%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-693801-warning: "text:Support%20Code%20%3A%206938%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-694001-warning: "text:Support%20Code%20%3A%206940%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-694101-warning: "text:Support%20Code%20%3A%206941%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-694201-warning: "text:Support%20Code%20%3A%206942%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-694301-warning: "text:Support%20Code%20%3A%206943%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-694401-warning: "text:Support%20Code%20%3A%206944%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-694501-warning: "text:Support%20Code%20%3A%206945%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-694601-warning: "text:Support%20Code%20%3A%206946%20A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.
+text:%20See%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-B20202-warning: "text:Support%20Code%20%3A%20B202%20An%20error%20has%20occurred.%20The%20printer%20needs%20repair.%20Turn%20the%20printer%20off%20and%20unplug%20the%20power%20cord%20of%20the%20printer%20from%20the%20power%20suppl
+text:y.%20Then%20see%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-B20302-warning: "text:Support%20Code%20%3A%20B203%20An%20error%20has%20occurred.%20The%20printer%20needs%20repair.%20Turn%20the%20printer%20off%20and%20unplug%20the%20power%20cord%20of%20the%20printer%20from%20the%20power%20suppl
+text:y.%20Then%20see%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-B20402-warning: "text:Support%20Code%20%3A%20B204%20An%20error%20has%20occurred.%20The%20printer%20needs%20repair.%20Turn%20the%20printer%20off%20and%20unplug%20the%20power%20cord%20of%20the%20printer%20from%20the%20power%20suppl
+text:y.%20Then%20see%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-B20501-warning: "text:Support%20Code%20%3A%20B205%20An%20error%20has%20occurred.%20The%20printer%20needs%20repair.%20Turn%20the%20printer%20off%20and%20unplug%20the%20power%20cord%20of%20the%20printer%20from%20the%20power%20suppl
+text:y.%20Then%20see%20the%20manual%20and%20contact%20the%20service%20center.%20Because%20the%20ink%20may%20leak%20out%2C%20do%20not%20tilt%20the%20printer%20when%20moving%20it."
+*End
+*cupsIPPReason com.canon-SC-warning: "text:A%20printer%20error%20has%20occurred.%20Turn%20the%20printer%20off%20and%20then%20on%20again.%20If%20this%20doesn%27t%20clear%20the%20error%2C%20the%20printer%20needs%20repair.%20See%20the%20manual%20and%20conta
+text:ct%20the%20service%20center."
+*End
+*cupsIPPReason com.canon-0053-warning: "text:Support%20Code%20%3A%2053%20Printing%20cannot%20be%20started%20because%20no%20print%20head%20is%20installed%20in%20the%20printer.%20Install%20a%20print%20head%2C%20perform%20print%20head%20alignment%2C%20and
+text:%20print%20again."
+*End
+*cupsIPPReason com.canon-0054-warning: "text:Support%20Code%20%3A%2054%20The%20Utility%20function%20cannot%20be%20used%20because%20no%20print%20head%20is%20installed%20in%20the%20printer.%20Install%20a%20print%20head%20and%20try%20again."
+*cupsIPPReason com.canon-0060-warning: "text:Support%20Code%20%3A%2060%20Selected%20paper%20size%20is%20not%20supported%20by%20the%20current%20printer.%20Select%20a%20printer%20that%20supports%20the%20paper%20size%2C%20and%20select%20the%20paper%20size
+text:%20again."
+*End
+*cupsIPPReason com.canon-0300-warning: "text:Support%20Code%20%3A%20300%20The%20printer%20does%20not%20respond.%20Make%20sure%20that%20the%20printer%20is%20plugged%20in%2C%20powered-on%2C%20and%20properly%20connected%20to%20your%20computer."
+*cupsIPPReason com.canon-0306-warning: "text:Support%20Code%20%3A%20306%20A%20communication%20error%20has%20occurred.%20Make%20sure%20that%20the%20printer%20is%20plugged%20in%2C%20powered-on%2C%20and%20properly%20connected%20to%20your%20computer.%20Then
+text:%20try%20printing%20again."
+*End
+*cupsIPPReason com.canon-0311-warning: "text:Support%20Code%20%3A%20311%20Printer%20is%20in%20use%20or%20an%20error%20has%20occurred.%20If%20an%20error%20has%20occurred%2C%20eliminate%20the%20cause%20of%20the%20error."
+*cupsIPPReason com.canon-0409-warning: "text:Support%20Code%20%3A%20409%20The%20specified%20port%20is%20already%20being%20used.%20Check%20whether%20it%20is%20being%20used%20by%20another%20application."
+*cupsIPPReason com.canon-????-warning: "text:An%20error%20occurred%20while%20printing."
+*cupsMarkerName ink12/Color: ""
+*cupsMarkerName ink12UK/Unknown: ""
+*cupsMarkerName ink11/Black: ""
+*cupsMarkerName ink11UK/Unknown: ""
+*cupsVersion: 2.1
+*cupsModelNumber: 466
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-raster 0 rastertocanonij"
+*cupsFilter: "application/vnd.cups-command 0 cmdtocanonij2"
+*cupsLanguages: "en"
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: A4
+*PageSize Letter/US Letter: "<</PageSize[612.00 792.00]/ImagingBBox null>>setpagedevice"
+*PageSize Letter.FullBleed/US Letter (borderless): "<</PageSize[612.00 792.00]/ImagingBBox null/cupsBorderlessScalingFactor 1.0167501790>>setpagedevice"
+*PageSize Legal/US Legal: "<</PageSize[612.00 1008.00]/ImagingBBox null>>setpagedevice"
+*PageSize A5/A5: "<</PageSize[419.53 595.28]/ImagingBBox null>>setpagedevice"
+*PageSize A4/A4: "<</PageSize[595.28 841.89]/ImagingBBox null>>setpagedevice"
+*PageSize A4.FullBleed/A4 (borderless): "<</PageSize[595.28 841.89]/ImagingBBox null/cupsBorderlessScalingFactor 1.0171428571>>setpagedevice"
+*PageSize B5/JIS B5: "<</PageSize[515.91 728.50]/ImagingBBox null>>setpagedevice"
+*PageSize 4x6/4 x 6: "<</PageSize[288.00 432.00]/ImagingBBox null>>setpagedevice"
+*PageSize 4x6.FullBleed/4 x 6 (borderless): "<</PageSize[288.00 432.00]/ImagingBBox null/cupsBorderlessScalingFactor 1.0354330709>>setpagedevice"
+*PageSize 5x7/5 x 7: "<</PageSize[360.00 504.00]/ImagingBBox null>>setpagedevice"
+*PageSize 5x7.FullBleed/5 x 7 (borderless): "<</PageSize[360.00 504.00]/ImagingBBox null/cupsBorderlessScalingFactor 1.0283464567>>setpagedevice"
+*PageSize 8x10/8 x 10: "<</PageSize[576.00 720.00]/ImagingBBox null>>setpagedevice"
+*PageSize 8x10.FullBleed/8 x 10 (borderless): "<</PageSize[576.00 720.00]/ImagingBBox null/cupsBorderlessScalingFactor 1.0184251969>>setpagedevice"
+*PageSize 89x127mm/L: "<</PageSize[252.28 360.00]/ImagingBBox null>>setpagedevice"
+*PageSize 89x127mm.FullBleed/L (borderless): "<</PageSize[252.28 360.00]/ImagingBBox null/cupsBorderlessScalingFactor 1.0404494382>>setpagedevice"
+*PageSize 127x127mm/Square 5"x5" 13x13cm: "<</PageSize[360.00 360.00]/ImagingBBox null>>setpagedevice"
+*PageSize 127x127mm.FullBleed/Square 5"x5" (borderless): "<</PageSize[360.00 360.00]/ImagingBBox null/cupsBorderlessScalingFactor 1.0368503937>>setpagedevice"
+*PageSize Postcard/Postcard: "<</PageSize[283.46 419.53]/ImagingBBox null>>setpagedevice"
+*PageSize Postcard.FullBleed/Postcard (borderless): "<</PageSize[283.46 419.53]/ImagingBBox null/cupsBorderlessScalingFactor 1.0360000000>>setpagedevice"
+*PageSize DoublePostcard/Postcard Double: "<</PageSize[566.93 419.53]/ImagingBBox null>>setpagedevice"
+*PageSize Env10/Envelope #10: "<</PageSize[296.99 684.00]/ImagingBBox null>>setpagedevice"
+*PageSize EnvDL/Envelope DL: "<</PageSize[311.81 623.62]/ImagingBBox null>>setpagedevice"
+*PageSize EnvChou3/Envelope Choukei 3: "<</PageSize[340.16 666.14]/ImagingBBox null>>setpagedevice"
+*PageSize EnvChou4/Envelope Choukei 4: "<</PageSize[255.12 581.10]/ImagingBBox null>>setpagedevice"
+*PageSize EnvYou4/Envelope You4: "<</PageSize[297.64 666.14]/ImagingBBox null>>setpagedevice"
+*PageSize 98x190mm/Envelope You6: "<</PageSize[277.80 538.58]/ImagingBBox null>>setpagedevice"
+*PageSize 55x91mm/Card: "<</PageSize[155.91 257.95]/ImagingBBox null>>setpagedevice"
+*PageSize 55x91mm.FullBleed/Card (borderless): "<</PageSize[155.91 257.95]/ImagingBBox null/cupsBorderlessScalingFactor 1.0654545455>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: A4
+*PageRegion Letter/US Letter: "<</PageSize[612.00 792.00]/ImagingBBox null>>setpagedevice"
+*PageRegion Letter.FullBleed/US Letter (borderless): "<</PageSize[612.00 792.00]/ImagingBBox null>>setpagedevice"
+*PageRegion Legal/US Legal: "<</PageSize[612.00 1008.00]/ImagingBBox null>>setpagedevice"
+*PageRegion A5/A5: "<</PageSize[419.53 595.28]/ImagingBBox null>>setpagedevice"
+*PageRegion A4/A4: "<</PageSize[595.28 841.89]/ImagingBBox null>>setpagedevice"
+*PageRegion A4.FullBleed/A4 (borderless): "<</PageSize[595.28 841.89]/ImagingBBox null>>setpagedevice"
+*PageRegion B5/JIS B5: "<</PageSize[515.91 728.50]/ImagingBBox null>>setpagedevice"
+*PageRegion 4x6/4 x 6: "<</PageSize[288.00 432.00]/ImagingBBox null>>setpagedevice"
+*PageRegion 4x6.FullBleed/4 x 6 (borderless): "<</PageSize[288.00 432.00]/ImagingBBox null>>setpagedevice"
+*PageRegion 5x7/5 x 7: "<</PageSize[360.00 504.00]/ImagingBBox null>>setpagedevice"
+*PageRegion 5x7.FullBleed/5 x 7 (borderless): "<</PageSize[360.00 504.00]/ImagingBBox null>>setpagedevice"
+*PageRegion 8x10/8 x 10: "<</PageSize[576.00 720.00]/ImagingBBox null>>setpagedevice"
+*PageRegion 8x10.FullBleed/8 x 10 (borderless): "<</PageSize[576.00 720.00]/ImagingBBox null>>setpagedevice"
+*PageRegion 89x127mm/L: "<</PageSize[252.28 360.00]/ImagingBBox null>>setpagedevice"
+*PageRegion 89x127mm.FullBleed/L (borderless): "<</PageSize[252.28 360.00]/ImagingBBox null>>setpagedevice"
+*PageRegion 127x127mm/Square 5"x5" 13x13cm: "<</PageSize[360.00 360.00]/ImagingBBox null>>setpagedevice"
+*PageRegion 127x127mm.FullBleed/Square 5"x5" (borderless): "<</PageSize[360.00 360.00]/ImagingBBox null>>setpagedevice"
+*PageRegion Postcard/Postcard: "<</PageSize[283.46 419.53]/ImagingBBox null>>setpagedevice"
+*PageRegion Postcard.FullBleed/Postcard (borderless): "<</PageSize[283.46 419.53]/ImagingBBox null>>setpagedevice"
+*PageRegion DoublePostcard/Postcard Double: "<</PageSize[566.93 419.53]/ImagingBBox null>>setpagedevice"
+*PageRegion Env10/Envelope #10: "<</PageSize[296.99 684.00]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvDL/Envelope DL: "<</PageSize[311.81 623.62]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvChou3/Envelope Choukei 3: "<</PageSize[340.16 666.14]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvChou4/Envelope Choukei 4: "<</PageSize[255.12 581.10]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvYou4/Envelope You4: "<</PageSize[297.64 666.14]/ImagingBBox null>>setpagedevice"
+*PageRegion 98x190mm/Envelope You6: "<</PageSize[277.80 538.58]/ImagingBBox null>>setpagedevice"
+*PageRegion 55x91mm/Card: "<</PageSize[155.91 257.95]/ImagingBBox null>>setpagedevice"
+*PageRegion 55x91mm.FullBleed/Card (borderless): "<</PageSize[155.91 257.95]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: A4
+*ImageableArea Letter/US Letter: "18.139999389648 14.170000076294 594.140014648438 783.5"
+*ImageableArea Letter.FullBleed/US Letter (borderless): "0 0 612 792"
+*ImageableArea Legal/US Legal: "18.139999389648 14.170000076294 594.140014648438 999.5"
+*ImageableArea A5/A5: "9.640000343323 14.170000076294 409.889984130859 586.77001953125"
+*ImageableArea A4/A4: "9.640000343323 14.170000076294 585.640014648438 833.390014648438"
+*ImageableArea A4.FullBleed/A4 (borderless): "0 0 595.280029296875 841.890014648438"
+*ImageableArea B5/JIS B5: "9.640000343323 14.170000076294 506.269958496094 720"
+*ImageableArea 4x6/4 x 6: "9.640000343323 14.170000076294 278.359985351562 423.5"
+*ImageableArea 4x6.FullBleed/4 x 6 (borderless): "0 0 288 432"
+*ImageableArea 5x7/5 x 7: "9.640000343323 14.170000076294 350.359985351562 495.5"
+*ImageableArea 5x7.FullBleed/5 x 7 (borderless): "0 0 360 504"
+*ImageableArea 8x10/8 x 10: "9.640000343323 14.170000076294 566.359985351562 711.5"
+*ImageableArea 8x10.FullBleed/8 x 10 (borderless): "0 0 576 720"
+*ImageableArea 89x127mm/L: "9.640000343323 14.170000076294 242.649993896484 351.5"
+*ImageableArea 89x127mm.FullBleed/L (borderless): "0 0 252.279998779297 360"
+*ImageableArea 127x127mm/Square 5"x5" 13x13cm: "17.010000228882 17.010000228882 342.989990234375 342.989990234375"
+*ImageableArea 127x127mm.FullBleed/Square 5"x5" (borderless): "0 0 360 360"
+*ImageableArea Postcard/Postcard: "9.640000343323 14.170000076294 273.829986572266 411.019989013672"
+*ImageableArea Postcard.FullBleed/Postcard (borderless): "0 0 283.459991455078 419.529998779297"
+*ImageableArea DoublePostcard/Postcard Double: "9.640000343323 14.170000076294 557.289978027344 411.019989013672"
+*ImageableArea Env10/Envelope #10: "9.640000343323 82.199996948242 287.349975585938 661.320007324219"
+*ImageableArea EnvDL/Envelope DL: "9.640000343323 82.199996948242 302.169982910156 600.940002441406"
+*ImageableArea EnvChou3/Envelope Choukei 3: "9.640000343323 14.170000076294 330.519989013672 643.460021972656"
+*ImageableArea EnvChou4/Envelope Choukei 4: "9.640000343323 14.170000076294 245.479995727539 558.429992675781"
+*ImageableArea EnvYou4/Envelope You4: "9.640000343323 82.199996948242 288 643.460021972656"
+*ImageableArea 98x190mm/Envelope You6: "9.640000343323 82.199996948242 268.159973144531 515.910034179688"
+*ImageableArea 55x91mm/Card: "9.640000343323 14.170000076294 146.270004272461 249.450012207031"
+*ImageableArea 55x91mm.FullBleed/Card (borderless): "0 0 155.910003662109 257.950012207031"
+*DefaultPaperDimension: A4
+*PaperDimension Letter/US Letter: "612 792"
+*PaperDimension Letter.FullBleed/US Letter (borderless): "612 792"
+*PaperDimension Legal/US Legal: "612 1008"
+*PaperDimension A5/A5: "419.529998779297 595.280029296875"
+*PaperDimension A4/A4: "595.280029296875 841.890014648438"
+*PaperDimension A4.FullBleed/A4 (borderless): "595.280029296875 841.890014648438"
+*PaperDimension B5/JIS B5: "515.909973144531 728.5"
+*PaperDimension 4x6/4 x 6: "288 432"
+*PaperDimension 4x6.FullBleed/4 x 6 (borderless): "288 432"
+*PaperDimension 5x7/5 x 7: "360 504"
+*PaperDimension 5x7.FullBleed/5 x 7 (borderless): "360 504"
+*PaperDimension 8x10/8 x 10: "576 720"
+*PaperDimension 8x10.FullBleed/8 x 10 (borderless): "576 720"
+*PaperDimension 89x127mm/L: "252.279998779297 360"
+*PaperDimension 89x127mm.FullBleed/L (borderless): "252.279998779297 360"
+*PaperDimension 127x127mm/Square 5"x5" 13x13cm: "360 360"
+*PaperDimension 127x127mm.FullBleed/Square 5"x5" (borderless): "360 360"
+*PaperDimension Postcard/Postcard: "283.459991455078 419.529998779297"
+*PaperDimension Postcard.FullBleed/Postcard (borderless): "283.459991455078 419.529998779297"
+*PaperDimension DoublePostcard/Postcard Double: "566.929992675781 419.529998779297"
+*PaperDimension Env10/Envelope #10: "296.989990234375 684"
+*PaperDimension EnvDL/Envelope DL: "311.809997558594 623.619995117188"
+*PaperDimension EnvChou3/Envelope Choukei 3: "340.160003662109 666.140014648438"
+*PaperDimension EnvChou4/Envelope Choukei 4: "255.119995117188 581.099975585938"
+*PaperDimension EnvYou4/Envelope You4: "297.640014648438 666.140014648438"
+*PaperDimension 98x190mm/Envelope You6: "277.799987792969 538.580017089844"
+*PaperDimension 55x91mm/Card: "155.910003662109 257.950012207031"
+*PaperDimension 55x91mm.FullBleed/Card (borderless): "155.910003662109 257.950012207031"
+*MaxMediaWidth: "612"
+*MaxMediaHeight: "1916.219970703125"
+*HWMargins: 9.640000343323 14.170000076294 9.640000343323 8.5
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 155.910003662109 612
+*ParamCustomPageSize Height: 2 points 252.279998779297 1916.219970703125
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*OpenUI *ColorModel/Color Model: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*DefaultColorModel: RGB16
+*ColorModel RGB16/RGB 16-bit: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 16>>setpagedevice"
+*CloseUI: *ColorModel
+*OpenUI *CNIJProfileID/ProfileID: PickOne
+*OrderDependency: 0 AnySetup *CNIJProfileID
+*DefaultCNIJProfileID: 1
+*CNIJProfileID 1/CanonIJPrinter2005.icc: ""
+*CloseUI: *CNIJProfileID
+*OpenUI *Resolution/Output Resolution: PickOne
+*OrderDependency: 10 AnySetup *Resolution
+*DefaultResolution: 600x600dpi
+*Resolution 300x300dpi/300 x 300 dpi: "<</HWResolution[300 300]>>setpagedevice"
+*Resolution 600x600dpi/600 x 600 dpi: "<</HWResolution[600 600]>>setpagedevice"
+*CloseUI: *Resolution
+*OpenUI *CNIJCartridge/BJ Cartridge: PickOne
+*OrderDependency: 0 AnySetup *CNIJCartridge
+*DefaultCNIJCartridge: 1
+*CNIJCartridge 1/Color: ""
+*CloseUI: *CNIJCartridge
+*OpenUI *CNIJMediaType/Media Type: PickOne
+*OrderDependency: 0 AnySetup *CNIJMediaType
+*DefaultCNIJMediaType: 0
+*CNIJMediaType 0/Plain Paper: ""
+*CNIJMediaType 50/Photo Paper Plus Glossy II: ""
+*CNIJMediaType 63/Photo Paper Pro Luster: ""
+*CNIJMediaType 42/Photo Paper Plus Semi-gloss: ""
+*CNIJMediaType 68/Glossy Photo Paper: ""
+*CNIJMediaType 28/Matte Photo Paper: ""
+*CNIJMediaType 8/Envelope: ""
+*CNIJMediaType 70/Ink Jet Hagaki (A): ""
+*CNIJMediaType 27/Ink Jet Hagaki: ""
+*CNIJMediaType 71/Hagaki K (A): ""
+*CNIJMediaType 54/Hagaki K: ""
+*CNIJMediaType 72/Hagaki (A): ""
+*CNIJMediaType 7/Hagaki: ""
+*CNIJMediaType 16/High Resolution Paper: ""
+*CNIJMediaType 36/Other Photo Paper: ""
+*CloseUI: *CNIJMediaType
+*OpenUI *CNIJMediaSupply/Paper Source: PickOne
+*OrderDependency: 0 AnySetup *CNIJMediaSupply
+*DefaultCNIJMediaSupply: 7
+*CNIJMediaSupply 7/Rear Tray: ""
+*CloseUI: *CNIJMediaSupply
+*OpenUI *CNIJPrintQuality/Quality: PickOne
+*OrderDependency: 0 AnySetup *CNIJPrintQuality
+*DefaultCNIJPrintQuality: 10
+*CNIJPrintQuality 0/Super Fine: ""
+*CNIJPrintQuality 5/Fine: ""
+*CNIJPrintQuality 10/Normal(Fine): ""
+*CNIJPrintQuality 15/Normal: ""
+*CNIJPrintQuality 20/Draft: ""
+*CloseUI: *CNIJPrintQuality
+*OpenUI *CNIJDitherPattern/Halftoning: PickOne
+*OrderDependency: 0 AnySetup *CNIJDitherPattern
+*DefaultCNIJDitherPattern: 2595
+*CNIJDitherPattern 2560/Dither: ""
+*CNIJDitherPattern 2595/Diffusion: ""
+*CloseUI: *CNIJDitherPattern
+*OpenUI *CNIJGrayScale/Grayscale Printing: PickOne
+*OrderDependency: 0 AnySetup *CNIJGrayScale
+*DefaultCNIJGrayScale: 0
+*CNIJGrayScale 0/OFF: ""
+*CNIJGrayScale 1/ON: ""
+*CloseUI: *CNIJGrayScale
+*OpenUI *CNIJGamma2/Brightness: PickOne
+*OrderDependency: 0 AnySetup *CNIJGamma2
+*DefaultCNIJGamma2: 18
+*CNIJGamma2 14/Light: ""
+*CNIJGamma2 18/Normal: ""
+*CNIJGamma2 22/Dark: ""
+*CloseUI: *CNIJGamma2
+*OpenUI *CNIJAmountOfExtension/Amount of Extension: PickOne
+*OrderDependency: 0 AnySetup *CNIJAmountOfExtension
+*DefaultCNIJAmountOfExtension: 2
+*CNIJAmountOfExtension 0/0: ""
+*CNIJAmountOfExtension 1/1: ""
+*CNIJAmountOfExtension 2/2: ""
+*CNIJAmountOfExtension 3/3: ""
+*CloseUI: *CNIJAmountOfExtension
+*OpenUI *CNIJMarginType/MarginType: PickOne
+*OrderDependency: 0 AnySetup *CNIJMarginType
+*DefaultCNIJMarginType: 0
+*CNIJMarginType 0/0: ""
+*CNIJMarginType 1/1: ""
+*CloseUI: *CNIJMarginType
+*OpenUI *CNIJPaperGapCommand/PaperGapCommand: PickOne
+*OrderDependency: 0 AnySetup *CNIJPaperGapCommand
+*DefaultCNIJPaperGapCommand: 10
+*CNIJPaperGapCommand 10/10: ""
+*CloseUI: *CNIJPaperGapCommand
+*OpenUI *CNIJDiscTrayForm/DiscTrayForm: PickOne
+*OrderDependency: 0 AnySetup *CNIJDiscTrayForm
+*DefaultCNIJDiscTrayForm: 10
+*CNIJDiscTrayForm 10/10: ""
+*CloseUI: *CNIJDiscTrayForm
+*OpenUI *CNIJBanner/Banner: PickOne
+*OrderDependency: 0 AnySetup *CNIJBanner
+*DefaultCNIJBanner: 5
+*CNIJBanner 5/5: ""
+*CloseUI: *CNIJBanner
+*OpenUI *CNIJSGColorMode/SGColorMode: PickOne
+*OrderDependency: 0 AnySetup *CNIJSGColorMode
+*DefaultCNIJSGColorMode: 127
+*CNIJSGColorMode 127/127: ""
+*CloseUI: *CNIJSGColorMode
+*OpenUI *CNIJISaveMode/ISaveMode: PickOne
+*OrderDependency: 0 AnySetup *CNIJISaveMode
+*DefaultCNIJISaveMode: 30
+*CNIJISaveMode 30/30: ""
+*CloseUI: *CNIJISaveMode
+*OpenUI *CNIJMediaGroup/MediaGroup: PickOne
+*OrderDependency: 0 AnySetup *CNIJMediaGroup
+*DefaultCNIJMediaGroup: 99
+*CNIJMediaGroup 99/99: ""
+*CloseUI: *CNIJMediaGroup
+*OpenUI *CNIJDuplexSurface/DuplexSurface: PickOne
+*OrderDependency: 0 AnySetup *CNIJDuplexSurface
+*DefaultCNIJDuplexSurface: 0
+*CNIJDuplexSurface 0/0: ""
+*CloseUI: *CNIJDuplexSurface
+*OpenUI *CNIJDataDirection/DataDirection: PickOne
+*OrderDependency: 0 AnySetup *CNIJDataDirection
+*DefaultCNIJDataDirection: 0
+*CNIJDataDirection 0/0: ""
+*CloseUI: *CNIJDataDirection
+*OpenUI *CNIJSpecialMode/SpecialMode: PickOne
+*OrderDependency: 0 AnySetup *CNIJSpecialMode
+*DefaultCNIJSpecialMode: 0
+*CNIJSpecialMode 0/0: ""
+*CloseUI: *CNIJSpecialMode
+*OpenUI *CNIJManualSelectSupply/ManualSelectSupply: PickOne
+*OrderDependency: 0 AnySetup *CNIJManualSelectSupply
+*DefaultCNIJManualSelectSupply: 10
+*CNIJManualSelectSupply 10/10: ""
+*CloseUI: *CNIJManualSelectSupply
+*OpenUI *CNIJIntent2/Color Mode: PickOne
+*OrderDependency: 0 AnySetup *CNIJIntent2
+*DefaultCNIJIntent2: 1
+*CNIJIntent2 1/Standard: ""
+*CloseUI: *CNIJIntent2
+*OpenUI *CNIJBlackAdjustment/BlackAdjustment: PickOne
+*OrderDependency: 0 AnySetup *CNIJBlackAdjustment
+*DefaultCNIJBlackAdjustment: 10
+*CNIJBlackAdjustment 10/10: ""
+*CloseUI: *CNIJBlackAdjustment
+*OpenUI *CNIJEmergencyMode/EmergencyMode: PickOne
+*OrderDependency: 0 AnySetup *CNIJEmergencyMode
+*DefaultCNIJEmergencyMode: 127
+*CNIJEmergencyMode 127/127: ""
+*CloseUI: *CNIJEmergencyMode
+*OpenUI *CNIJLongLifeMode/LongLifeMode: PickOne
+*OrderDependency: 0 AnySetup *CNIJLongLifeMode
+*DefaultCNIJLongLifeMode: 30
+*CNIJLongLifeMode 30/30: ""
+*CloseUI: *CNIJLongLifeMode
+*OpenUI *CNIJCartridgeSelect/CartridgeSelect: PickOne
+*OrderDependency: 0 AnySetup *CNIJCartridgeSelect
+*DefaultCNIJCartridgeSelect: 0
+*CNIJCartridgeSelect 0/0: ""
+*CloseUI: *CNIJCartridgeSelect
+*OpenUI *CNIJPrintMode2/Print Quality: PickOne
+*OrderDependency: 0 AnySetup *CNIJPrintMode2
+*DefaultCNIJPrintMode2: 2
+*CNIJPrintMode2 1/High: ""
+*CNIJPrintMode2 2/Standard: ""
+*CNIJPrintMode2 3/Draft: ""
+*CNIJPrintMode2 5/Custom: ""
+*CloseUI: *CNIJPrintMode2
+*OpenUI *CNIJPZVividPosiProcess/Vivid Photo: PickOne
+*OrderDependency: 0 AnySetup *CNIJPZVividPosiProcess
+*DefaultCNIJPZVividPosiProcess: 0
+*CNIJPZVividPosiProcess 0/0: ""
+*CloseUI: *CNIJPZVividPosiProcess
+*OpenUI *CNIJGrayScaleCheckBox/Grayscale Printing: PickOne
+*OrderDependency: 0 AnySetup *CNIJGrayScaleCheckBox
+*DefaultCNIJGrayScaleCheckBox: 0
+*CNIJGrayScaleCheckBox 0/OFF: ""
+*CNIJGrayScaleCheckBox 1/ON: ""
+*CloseUI: *CNIJGrayScaleCheckBox
+*OpenUI *CNIJPQualitySlider/Quality: PickOne
+*OrderDependency: 0 AnySetup *CNIJPQualitySlider
+*DefaultCNIJPQualitySlider: 3
+*CNIJPQualitySlider 1/Draft: ""
+*CNIJPQualitySlider 2/Normal: ""
+*CNIJPQualitySlider 3/Normal(Fine): ""
+*CNIJPQualitySlider 4/Fine: ""
+*CNIJPQualitySlider 5/Super Fine: ""
+*CloseUI: *CNIJPQualitySlider
+*OpenUI *CNIJHalfToneRadio/Halftoning: PickOne
+*OrderDependency: 0 AnySetup *CNIJHalfToneRadio
+*DefaultCNIJHalfToneRadio: 2
+*CNIJHalfToneRadio 1/Dither: ""
+*CNIJHalfToneRadio 2/Diffusion: ""
+*CloseUI: *CNIJHalfToneRadio
+*OpenUI *CNIJMediaSupplyMenuItem/MediaSupplyMenuItem: PickOne
+*OrderDependency: 0 AnySetup *CNIJMediaSupplyMenuItem
+*DefaultCNIJMediaSupplyMenuItem: 1
+*CNIJMediaSupplyMenuItem 1/1: ""
+*CloseUI: *CNIJMediaSupplyMenuItem
+*OpenUI *CNIJProfileType/ProfileType: PickOne
+*OrderDependency: 0 AnySetup *CNIJProfileType
+*DefaultCNIJProfileType: 1
+*CNIJProfileType 0/0: ""
+*CNIJProfileType 1/1: ""
+*CloseUI: *CNIJProfileType
+*OpenUI *CNIJPDEEnable/PDEEnable: PickOne
+*OrderDependency: 0 AnySetup *CNIJPDEEnable
+*DefaultCNIJPDEEnable: 1
+*CNIJPDEEnable 0/0: ""
+*CNIJPDEEnable 1/1: ""
+*CloseUI: *CNIJPDEEnable
+*OpenUI *CNIJRGB2GrayConvert/RGB2GrayConvert: PickOne
+*OrderDependency: 0 AnySetup *CNIJRGB2GrayConvert
+*DefaultCNIJRGB2GrayConvert: 0
+*CNIJRGB2GrayConvert 0/0: ""
+*CNIJRGB2GrayConvert 1/1: ""
+*CloseUI: *CNIJRGB2GrayConvert
+*OpenUI *CNIJPreviewSampleType/Sample Type: PickOne
+*OrderDependency: 0 AnySetup *CNIJPreviewSampleType
+*DefaultCNIJPreviewSampleType: 1
+*CNIJPreviewSampleType 1/Standard: ""
+*CNIJPreviewSampleType 3/Landscape: ""
+*CNIJPreviewSampleType 4/Graphics: ""
+*CloseUI: *CNIJPreviewSampleType
+*OpenUI *CNIJColorPatternCheckBox/View Color Pattern: PickOne
+*OrderDependency: 0 AnySetup *CNIJColorPatternCheckBox
+*DefaultCNIJColorPatternCheckBox: 0
+*CNIJColorPatternCheckBox 0/OFF: ""
+*CNIJColorPatternCheckBox 1/ON: ""
+*CloseUI: *CNIJColorPatternCheckBox
+*OpenUI *CNIJColorAdjustMode/ColorAdjustMode: PickOne
+*OrderDependency: 0 AnySetup *CNIJColorAdjustMode
+*DefaultCNIJColorAdjustMode: 1
+*CNIJColorAdjustMode 1/1: ""
+*CloseUI: *CNIJColorAdjustMode
+*OpenUI *CNIJMediaSense/MediaSense: PickOne
+*OrderDependency: 0 AnySetup *CNIJMediaSense
+*DefaultCNIJMediaSense: 10
+*CNIJMediaSense 10/10: ""
+*CloseUI: *CNIJMediaSense
+*OpenUI *CNIJStapleSide/Stapling Side: PickOne
+*OrderDependency: 0 AnySetup *CNIJStapleSide
+*DefaultCNIJStapleSide: 1
+*CNIJStapleSide 1/Long-side stapling (Left): ""
+*CNIJStapleSide 2/Long-side stapling (Right): ""
+*CNIJStapleSide 3/Short-side stapling (Top): ""
+*CNIJStapleSide 4/Short-side stapling (Bottom): ""
+*CloseUI: *CNIJStapleSide
+*OpenUI *CNIJExtDDIStapleMarginSupport/ExtDDIStapleMarginSupport: PickOne
+*OrderDependency: 0 AnySetup *CNIJExtDDIStapleMarginSupport
+*DefaultCNIJExtDDIStapleMarginSupport: 1
+*CNIJExtDDIStapleMarginSupport 1/1: ""
+*CloseUI: *CNIJExtDDIStapleMarginSupport
+*OpenUI *CNIJExtDDISupportAppType/ExtDDISupportAppType: PickOne
+*OrderDependency: 0 AnySetup *CNIJExtDDISupportAppType
+*DefaultCNIJExtDDISupportAppType: 1
+*CNIJExtDDISupportAppType 1/1: ""
+*CloseUI: *CNIJExtDDISupportAppType
+*OpenUI *CNIJTableSwitchInfo/TableSwitchInfo: PickOne
+*OrderDependency: 0 AnySetup *CNIJTableSwitchInfo
+*DefaultCNIJTableSwitchInfo: 0
+*CNIJTableSwitchInfo 0/0: ""
+*CloseUI: *CNIJTableSwitchInfo
+*DefaultFont: Courier
+*% End of CNIJ466.ppd, 46896 bytes.
